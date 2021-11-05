@@ -13,7 +13,7 @@ const Address = () => {
           <Form>
             <Form.Field inline>
               <Header size="small">Logradouro</Header>
-              <Input fluid value={ceps.logradouro} />
+              <Input fluid placeholder="complemento" value={ceps.logradouro} />
             </Form.Field>
             <Form.Field inline>
               <Header size="small">Número</Header>
